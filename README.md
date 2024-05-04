@@ -1,18 +1,21 @@
-## Getting Started
+# Programa de Diferença entre Números
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa lê dois números inteiros, garantindo que o primeiro seja maior que o segundo e que ambos sejam diferentes. Em seguida, imprime uma série de números sequenciais, começando de 1 até a diferença entre os dois números.
 
-## Folder Structure
+## Exemplo: ##
 
-The workspace contains two folders by default, where:
+Digite o primeiro número: 10
+Digite o segundo número: 5
+imprimindo número 1:
+imprimindo número 2:
+imprimindo número 3:
+imprimindo número 4:
+imprimindo número 5:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Casos Especiais ##
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Se os números inseridos forem iguais, o programa lançará uma exceção.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Se o segundo número for maior ou igual ao primeiro, o programa também lançará uma exceção.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Desafio da DIO no BootCamp Santander, disponível em: https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/controle-fluxo
